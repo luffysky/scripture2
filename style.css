@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: /*"cwTeXYen",*/
+    'Noto Sans TC', sans-serif;
+    color: #fff;
+    background-color: #000;
+    max-width: 100vw;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 5vh 0;
+}
+
+.container {
+    writing-mode: vertical-rl;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    font-size: 26px;
+    margin: 5vh 1vw 5vh 1vw;
+    height: 100vh;
+    max-height: 90vh;
+    letter-spacing: 5px;
+}
+
+.content002_0 {
+    font-weight: 700;
+}
